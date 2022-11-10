@@ -1,0 +1,4 @@
+Designator,Mid X,Mid Y,Layer,Rotation
+LED1,16.00, 0.00,Top,180.0
+LED2, 0.00, 0.00,Top,180.0
+LED3,-16.00, 0.00,Top,180.0
