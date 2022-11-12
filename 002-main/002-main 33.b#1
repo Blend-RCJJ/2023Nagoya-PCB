@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -4201,18 +4201,6 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="1.5800625" y1="44.9694" x2="3.1067" y2="46.4960375" width="0.3048" layer="1"/>
 <wire x1="21.6573875" y1="37.846575" x2="25.070265625" y2="37.846575" width="0.3048" layer="1"/>
 <wire x1="25.070265625" y1="37.846575" x2="25.223690625" y2="38" width="0.3048" layer="1"/>
-</signal>
-<signal name="TOGGLE">
-<contactref element="J9" pad="P$1"/>
-</signal>
-<signal name="SW2">
-<contactref element="J9" pad="P$2"/>
-</signal>
-<signal name="SW1">
-<contactref element="J9" pad="P$3"/>
-</signal>
-<signal name="LED-UI">
-<contactref element="J9" pad="P$4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
