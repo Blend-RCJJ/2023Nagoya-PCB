@@ -2250,6 +2250,42 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </package3d>
 </packages3d>
 </library>
+<library name="HX711">
+<packages>
+<package name="SOP127P600X180-16N">
+<circle x="-4.25" y="5.035" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.25" y="5.035" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.95" y1="4.95" x2="1.95" y2="4.95" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-4.95" x2="1.95" y2="-4.95" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="5.06" x2="1.95" y2="5.06" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-5.06" x2="1.95" y2="-5.06" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="4.95" x2="-1.95" y2="-4.95" width="0.127" layer="51"/>
+<wire x1="1.95" y1="4.95" x2="1.95" y2="-4.95" width="0.127" layer="51"/>
+<wire x1="-3.71" y1="5.2" x2="3.71" y2="5.2" width="0.05" layer="39"/>
+<wire x1="-3.71" y1="-5.2" x2="3.71" y2="-5.2" width="0.05" layer="39"/>
+<wire x1="-3.71" y1="5.2" x2="-3.71" y2="-5.2" width="0.05" layer="39"/>
+<wire x1="3.71" y1="5.2" x2="3.71" y2="-5.2" width="0.05" layer="39"/>
+<text x="-3.71" y="-5.537" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.71" y="5.537" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-2.67" y="4.445" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="2" x="-2.67" y="3.175" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="3" x="-2.67" y="1.905" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="4" x="-2.67" y="0.635" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="5" x="-2.67" y="-0.635" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="6" x="-2.67" y="-1.905" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="7" x="-2.67" y="-3.175" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="8" x="-2.67" y="-4.445" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="9" x="2.67" y="-4.445" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="10" x="2.67" y="-3.175" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="11" x="2.67" y="-1.905" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="12" x="2.67" y="-0.635" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="13" x="2.67" y="0.635" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="14" x="2.67" y="1.905" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="15" x="2.67" y="3.175" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="16" x="2.67" y="4.445" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2698,6 +2734,34 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <attribute name="SPICEPREFIX" value="R" x="-5" y="18.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J9" library="con-molex-spox" package="5267-4" value="5267-4" x="45.5" y="18.5" smashed="yes" rot="R180"/>
+<element name="U6" library="HX711" package="SOP127P600X180-16N" value="HX711" x="-57" y="8" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="-57" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Precision 24-bit analog-to-digital converter (ADC) designed for weigh scales and industrial control applications to interface directly with a bridge sensor. " x="-57" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="AVIA SEMICONDUCTOR" x="-57" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="HX711" x="-57" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-60.71" y="13.537" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="None" x="-57" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-57" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-60.71" y="2.463" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100" x="-60" y="-2" smashed="yes">
+<attribute name="NAME" x="-60.635" y="-1.365" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="0" x="-60" y="-2" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-60" y="-2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-60.635" y="-3.905" size="1.27" layer="27"/>
+</element>
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100" x="-60" y="-7" smashed="yes">
+<attribute name="NAME" x="-60.635" y="-6.365" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="0" x="-60" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-60" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-60.635" y="-8.905" size="1.27" layer="27"/>
+</element>
+<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1µ" x="-59.5" y="-12" smashed="yes">
+<attribute name="NAME" x="-60.135" y="-11.365" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-59.5" y="-12" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-59.5" y="-12" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-60.135" y="-13.905" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3258,9 +3322,11 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="-24" y1="56" x2="-24" y2="58" width="0.3048" layer="16"/>
 <wire x1="-20" y1="58" x2="-20" y2="56" width="0.3048" layer="16"/>
 <wire x1="20" y1="56" x2="20" y2="58" width="0.3048" layer="16"/>
+<contactref element="U6" pad="5"/>
 <wire x1="50.45" y1="32.4" x2="44.980253125" y2="36.203946875" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.247515625" y1="41.31816875" x2="-24.247515625" y2="41.318171875" width="0" layer="19" extent="1-1"/>
 <wire x1="18.5" y1="25.5" x2="19" y2="26.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.67" y1="7.365" x2="-50.45" y2="12.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="LED1" pad="4"/>
@@ -3407,11 +3473,15 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="51.54513125" y1="12.6" x2="50.91573125" y2="11.9706" width="0.3048" layer="1"/>
 <wire x1="50.91573125" y1="11.9706" x2="45.0402" y2="11.9706" width="0.3048" layer="1"/>
 <wire x1="45.0402" y1="11.9706" x2="43.0108" y2="14" width="0.3048" layer="1"/>
+<contactref element="U6" pad="16"/>
+<contactref element="U6" pad="1"/>
 <wire x1="11.7" y1="24.22" x2="43.0108" y2="14" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.31816875" y1="35.247515625" x2="-30.31816875" y2="35.24751875" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.186796875" y1="34.11614375" x2="-29.496290625" y2="33.806653125" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.859365625" y1="34.15225625" x2="-30.31816875" y2="35.24751875" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.55" y1="32.4" x2="-35.859365625" y2="34.15225625" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.33" y1="12.445" x2="-51.55" y2="14.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.67" y1="12.445" x2="-54.33" y2="12.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="1"/>
@@ -4221,6 +4291,29 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </signal>
 <signal name="LED-UI">
 <contactref element="J9" pad="P$4"/>
+</signal>
+<signal name="L-EXC+">
+<contactref element="U6" pad="3"/>
+</signal>
+<signal name="N$29">
+<contactref element="U6" pad="7"/>
+<contactref element="R18" pad="1"/>
+<contactref element="C16" pad="1"/>
+<wire x1="-60.5" y1="-2" x2="-60.35" y2="-12" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.67" y1="4.825" x2="-60.5" y2="-2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="U6" pad="8"/>
+<contactref element="R19" pad="1"/>
+<contactref element="C16" pad="2"/>
+<wire x1="-60.5" y1="-7" x2="-58.65" y2="-12" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.67" y1="3.555" x2="-60.5" y2="-7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="L-INA-">
+<contactref element="R18" pad="2"/>
+</signal>
+<signal name="L-INA+">
+<contactref element="R19" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
