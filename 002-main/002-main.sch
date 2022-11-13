@@ -21179,7 +21179,7 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.127" drill="0">
 </class>
 </classes>
 <parts>
@@ -21397,6 +21397,8 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="GF1" device="" package3d_urn="urn:adsk.eagle:package:43452/2" value="1N4001"/>
+<part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22333,6 +22335,62 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <pinref part="U2" gate="A" pin="PC5"/>
 <wire x1="185.42" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
 <label x="195.58" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SIG-FLOOR" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PC0"/>
+<wire x1="185.42" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
+<label x="195.58" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED-L" class="0">
+<segment>
+<wire x1="124.46" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<label x="106.68" y="88.9" size="1.778" layer="95"/>
+<pinref part="U2" gate="A" pin="PA15"/>
+</segment>
+</net>
+<net name="LED-FLOOR" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB15"/>
+<wire x1="124.46" y1="48.26" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
+<label x="101.6" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED-UI" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB14"/>
+<wire x1="124.46" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
+<label x="101.6" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED-R" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB13"/>
+<wire x1="124.46" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
+<label x="101.6" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SW1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA4"/>
+<wire x1="124.46" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<label x="104.14" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SW2" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA5"/>
+<wire x1="124.46" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
+<label x="104.14" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOGGLE" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA6"/>
+<wire x1="124.46" y1="111.76" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
+<label x="104.14" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -23400,6 +23458,13 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <instance part="+3V16" gate="G$1" x="139.7" y="71.12" smashed="yes">
 <attribute name="VALUE" x="142.24" y="71.12" size="1.778" layer="96"/>
 </instance>
+<instance part="D3" gate="D" x="248.92" y="168.91" smashed="yes" rot="R180">
+<attribute name="NAME" x="246.38" y="165.1" size="1.778" layer="95"/>
+<attribute name="VALUE" x="251.46" y="165.1" size="1.778" layer="96"/>
+</instance>
+<instance part="P+26" gate="1" x="259.08" y="175.26" smashed="yes">
+<attribute name="VALUE" x="252.476" y="172.72" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23612,6 +23677,12 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <wire x1="246.38" y1="106.68" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="P+18" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="D3" gate="D" pin="A"/>
+<wire x1="251.46" y1="168.91" x2="259.08" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="168.91" x2="259.08" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="P+26" gate="1" pin="+5V"/>
+</segment>
 </net>
 <net name="SIG-FLOOR" class="0">
 <segment>
@@ -23758,6 +23829,13 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <wire x1="119.38" y1="63.5" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 <junction x="119.38" y="63.5"/>
 <pinref part="R31" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="5V"/>
+<pinref part="D3" gate="D" pin="C"/>
+<wire x1="246.38" y1="168.91" x2="237.49" y2="168.91" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
