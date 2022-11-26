@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/Shirokuma89/Documents/Blend/PCB/002-main/002-main.brd
 
-Start at      : 02:47:39 (2022/11/14)
-End at        : 02:47:41 (2022/11/14)
-Elapsed time  : 00:00:01
+Start at      : 11:56:55 (2022/11/16)
+End at        : 09:00:00 (1970/01/01)
+Elapsed time  : 00:00:00
 
-Signals       :    79   RoutingGrid: 9.84252 mil  Layers: 2
-Connections   :   255   predefined:  252 ( 101 Vias )
+Signals       :    82   RoutingGrid: 5 mil  Layers: 2
+Connections   :   278   predefined:  260 ( 188 Vias )
 
-Router memory :   432000
+Router memory :   1633984
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          : TopRouter
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:00
+Number of Ripups  :         0
+max. Level        :         0
+max. Total        :         0
 
-Routed            :         3         3         3         3         3         3         3         3         3         3         3         3         3
-Vias              :         6         6         6         6         6         6         6         5         5         5         5         5         5
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0
+Vias              :         0
+Resolution        :    93.5 %
 
-Final             : 100.0% finished
+Final             : 93.1% finished

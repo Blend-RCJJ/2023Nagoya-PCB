@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -21227,12 +21227,12 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <part name="LED14" library="microbuilder" deviceset="WS2812B" device="_2020"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="X2" library="microbuilder" deviceset="USB_C" device="" value="usb-c"/>
+<part name="X2" library="microbuilder" deviceset="USB_C" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X3" library="microbuilder" deviceset="USB_C" device="" value="usb-c"/>
+<part name="X3" library="microbuilder" deviceset="USB_C" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
@@ -21319,15 +21319,15 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <part name="U5" library="MAX485" deviceset="MAX485ESA+T" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2k2"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2k2"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1"/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BCX71SMD" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="C1015"/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="20k"/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="7.5k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="270"/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22435,13 +22435,6 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 <pinref part="U2" gate="A" pin="PC1"/>
 <wire x1="185.42" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
 <label x="195.58" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SPK" class="0">
-<segment>
-<wire x1="124.46" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<label x="109.22" y="68.58" size="1.778" layer="95"/>
-<pinref part="U2" gate="A" pin="PB6"/>
 </segment>
 </net>
 </nets>
@@ -23895,55 +23888,8 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,2,81.28,170.18,LED1,VDD,+5V,,,"/>
-<approved hash="104,2,109.22,170.18,LED2,VDD,+5V,,,"/>
-<approved hash="104,2,137.16,170.18,LED3,VDD,+5V,,,"/>
-<approved hash="104,2,165.1,170.18,LED4,VDD,+5V,,,"/>
-<approved hash="104,2,193.04,170.18,LED5,VDD,+5V,,,"/>
-<approved hash="104,2,220.98,170.18,LED6,VDD,+5V,,,"/>
-<approved hash="104,2,248.92,170.18,LED7,VDD,+5V,,,"/>
-<approved hash="104,2,81.28,132.08,LED8,VDD,+5V,,,"/>
-<approved hash="104,2,109.22,132.08,LED9,VDD,+5V,,,"/>
-<approved hash="104,2,137.16,132.08,LED10,VDD,+5V,,,"/>
-<approved hash="104,2,165.1,132.08,LED11,VDD,+5V,,,"/>
-<approved hash="104,2,193.04,132.08,LED12,VDD,+5V,,,"/>
-<approved hash="104,2,220.98,132.08,LED13,VDD,+5V,,,"/>
-<approved hash="104,2,248.92,132.08,LED14,VDD,+5V,,,"/>
-<approved hash="104,1,35.56,172.72,X2,VBUS,N$49,,,"/>
-<approved hash="104,1,109.22,172.72,X3,VBUS,N$50,,,"/>
-<approved hash="104,1,22.86,127,U2B,VSS_2,GND,,,"/>
-<approved hash="104,1,22.86,124.46,U2B,VSS_3,GND,,,"/>
-<approved hash="104,1,22.86,121.92,U2B,VSS_4,GND,,,"/>
-<approved hash="104,1,22.86,119.38,U2B,VSS,GND,,,"/>
-<approved hash="104,1,22.86,114.3,U2B,VSSA/VREF-,GND,,,"/>
-<approved hash="104,1,22.86,109.22,U2B,VBAT,+3V3,,,"/>
-<approved hash="104,1,83.82,127,U2B,VDD_2,+3V3,,,"/>
-<approved hash="104,1,83.82,124.46,U2B,VDD_3,+3V3,,,"/>
-<approved hash="104,1,83.82,121.92,U2B,VDD_4,+3V3,,,"/>
-<approved hash="104,1,83.82,119.38,U2B,VDD,+3V3,,,"/>
-<approved hash="104,1,83.82,114.3,U2B,VDDA/VREF+,+3V3,,,"/>
-<approved hash="104,1,83.82,109.22,U2B,VCAP_1,N$18,,,"/>
-<approved hash="104,1,50.8,58.42,U1,VCC,+5V,,,"/>
-<approved hash="104,1,50.8,73.66,U1,V3,N$8,,,"/>
-<approved hash="104,1,182.88,167.64,U4,VIN,+3V3,,,"/>
 <approved hash="204,1,213.36,167.64,U4,VOUT,,,,"/>
-<approved hash="104,2,139.7,81.28,U5,VCC,+5V,,,"/>
-<approved hash="104,3,60.96,114.3,IC1,V+,+3V3,,,"/>
-<approved hash="104,3,60.96,99.06,IC1,V-,GND,,,"/>
-<approved hash="104,3,142.24,114.3,IC2,V+,+3V3,,,"/>
-<approved hash="104,3,142.24,99.06,IC2,V-,GND,,,"/>
 <approved hash="209,1,22.86,53.34,CTS,,,,,"/>
-<approved hash="106,1,22.86,53.34,CTS,,,,,"/>
-<approved hash="106,1,22.86,58.42,RTS,,,,,"/>
-<approved hash="106,1,124.46,76.2,SWO,,,,,"/>
-<approved hash="108,1,35.56,10.16,GND,,,,,"/>
-<approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
-<approved hash="113,2,131.976,90.066,FRAME2,,,,,"/>
-<approved hash="113,1,27.305,163.919,X2,,,,,"/>
-<approved hash="113,1,100.965,163.919,X3,,,,,"/>
-<approved hash="113,3,131.976,90.066,FRAME3,,,,,"/>
-<approved hash="113,1,198.12,161.872,U4,,,,,"/>
-<approved hash="113,3,55.88,59.3954,S1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
