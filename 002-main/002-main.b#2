@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -43990,11 +43990,11 @@ http://www.zetex.com&lt;p&gt;
 <attribute name="PRICE" value="None" x="0" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MAX485ESA/?ref=eda" x="0" y="20" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2k2" x="-5" y="20.6" smashed="yes" rot="R180">
+<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1" x="-5" y="20.6" smashed="yes" rot="R180">
 <attribute name="POPULARITY" value="0" x="-5" y="20.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-5" y="20.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2k2" x="-5" y="21.8" smashed="yes">
+<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k1" x="-5" y="21.8" smashed="yes">
 <attribute name="POPULARITY" value="0" x="-5" y="21.8" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-5" y="21.8" size="1.778" layer="27" display="off"/>
 </element>
@@ -44005,7 +44005,7 @@ http://www.zetex.com&lt;p&gt;
 <attribute name="POPULARITY" value="0" x="-5" y="19.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-5" y="19.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="7.5k" x="-5" y="18.2" smashed="yes">
+<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="270" x="-5" y="18.2" smashed="yes">
 <attribute name="POPULARITY" value="0" x="-5" y="18.2" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-5" y="18.2" size="1.778" layer="27" display="off"/>
 </element>
@@ -45983,7 +45983,7 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="45.5" y1="20.938475" x2="45.5" y2="14" width="0.2032" layer="1"/>
 <wire x1="46.4486" y1="21.887075" x2="45.5" y2="20.938475" width="0.2032" layer="1"/>
 <wire x1="39" y1="36.5" x2="39.5" y2="36.5" width="0.2032" layer="1"/>
-<wire x1="40.977775" y1="36.5" x2="40" y2="36.5" width="0.2032" layer="1"/>
+<wire x1="40" y1="36.5" x2="40.977775" y2="36.5" width="0.2032" layer="1"/>
 <wire x1="40.977775" y1="36.5" x2="46.4486" y2="31.029175" width="0.2032" layer="1"/>
 <wire x1="46.4486" y1="31.029175" x2="46.4486" y2="21.887075" width="0.2032" layer="1"/>
 <via x="38.2" y="35.2" extent="1-16" drill="0.35"/>
@@ -45996,7 +45996,7 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="20.5" y1="41.5" x2="30.966975" y2="41.5" width="0.2032" layer="16"/>
 <wire x1="30.966975" y1="41.5" x2="36.2702" y2="36.196775" width="0.2032" layer="16"/>
 <wire x1="36.2702" y1="36.196775" x2="36.2702" y2="35.55125625" width="0.2032" layer="16"/>
-<wire x1="40" y1="36.5" x2="39" y2="36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="39" y1="36.5" x2="40" y2="36.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW2">
 <contactref element="U2" pad="21"/>
